@@ -1,12 +1,25 @@
-body {
+body{
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     color: white;
     height: 100 vh;
+    background-image:url(imagenes/handsworld.png) ;
+    background-color:hwb(60 40% 49% / 0.395);
+    background-position: center;    
 }
-
+#titulo{
+    background-color:hwb(60 14% 82% / 0.395);
+    width: 300px;
+}
 body::-webkit-scrollbar {
     -webkit-appearance: none;
+}
+form{
+    background-color:hwb(60 14% 82% / 0.395);
+    margin-top: -20px;   
+}
+.needs-validation{
+    padding: 20px 20px;
 }
 
 body::-webkit-scrollbar:vertical {
@@ -27,6 +40,7 @@ body::-webkit-scrollbar-thumb {
 
 h1 {
     font-size: 38px;
+    text-align:center;
 }
 
 .nav-link {
@@ -86,7 +100,7 @@ label {
     margin: 8px 0;
 }
 input, select {
-   width: 300px;
+   width: 200px;
    margin: 8px 0;
    margin-left: 30px;   
 }
@@ -97,4 +111,27 @@ select {
 
 .form-btn {
     margin-left: 120px;
+}
+#foter{
+    padding: 0%;
+    margin-top: 20px;
+    background-color: #0a2010;
+    width: 100%;
+    padding-left: 0%;
+}
+
+#texto{    
+    margin-top: 80px;
+}
+#foterr{
+    padding: 0%;
+    margin-top: 100px;
+    background-color:hwb(60 7% 91% / 0.395);
+}
+header{
+    height: 50px;
+    margin-bottom: 3rem;
+    background-color: #0a2010;
+    width: 100%;
+    padding-left: 0%;
 }
