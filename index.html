@@ -14,20 +14,22 @@
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 </head>
 <body>    
+    <header class="border-bottom">      
     <nav class="navbar navbar-light" id="main-navbar">
         <div class="container">
             <a class="navbar-brand" id="nav-bar-brand">Fundacion Guay</a>            
         </div>
     </nav>
-    <div class="container" style="margin-bottom: 2.5rem">
+    </header>
+    <div id="titulo" class="container" style="margin-bottom: 2.5rem">
         <div class="row justify-content-center align-items-center">
             <div class="col-6 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h1 class="text-center">Fundación Guay</h1>
+                <h1>Fundación Guay</h1>
                 <h2 class="text-center">Donaciones</h2>
             </div>
         </div>
     </div>
-   <div class="container d-flex justify-content-center">    
+    <div class="container d-flex justify-content-center">    
     <form class="needs-validation" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
     
         <input type=hidden name="oid" value="00D8b0000031bUd">
@@ -51,68 +53,80 @@
         
         <label for="company">Compañía</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
         
-        <label>Provincia:</label><select  id="00N8b00000IERfi" name="00N8b00000IERfi" title="Provincia"><option value="">--Seleccionar--</option><option value="Buenos Aires">Buenos Aires</option>
-            <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
-            <option value="Catamarca">Catamarca</option>
-            <option value="Chaco">Chaco</option>
-            <option value="Chubut">Chubut</option>
-            <option value="Córdoba">Córdoba</option>
-            <option value="Corrientes">Corrientes</option>
-            <option value="Entre Ríos">Entre Ríos</option>
-            <option value="Formosa">Formosa</option>
-            <option value="Jujuy">Jujuy</option>
-            <option value="La Pampa">La Pampa</option>
-            <option value="La Rioja">La Rioja</option>
-            <option value="Mendoza">Mendoza</option>
-            <option value="Misiones">Misiones</option>
-            <option value="Neuquén">Neuquén</option>
-            <option value="Río Negro">Río Negro</option>
-            <option value="Salta">Salta</option>
-            <option value="San Juan">San Juan</option>
-            <option value="San Luis">San Luis</option>
-            <option value="Santa Cruz">Santa Cruz</option>
-            <option value="Santa Fe">Santa Fe</option>
-            <option value="Santiago del Estero">Santiago del Estero</option>
-            <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
-            <option value="Tucumán">Tucumán</option>
-            </select><br>
+        <label>Provincia:</label>
+        <select  id="00N8b00000IERfi" name="00N8b00000IERfi" title="Provincia"><option value="">--Seleccionar--</option><option value="Buenos Aires">Buenos Aires</option>
+                <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                <option value="Tucumán">Tucumán</option>
+          </select><br>
             
-            <label>Localidad:</label><input  id="00N8b00000IEQK8" maxlength="255" name="00N8b00000IEQK8" size="20" type="text" /><br>
+          <label>Localidad:</label><input  id="00N8b00000IEQK8" maxlength="255" name="00N8b00000IEQK8" size="20" type="text" /><br>
         
-        <label>Bienes/Comida/Ropa/Juguetes/Otros:</label><input  id="00N8b00000IDH25" name="00N8b00000IDH25" type="checkbox" value="1" /><br>
-
-        <label>Transferencia:</label><input  id="00N8b00000IDH30" name="00N8b00000IDH30" type="checkbox" value="1" /><br>
+          <label>Tipo_Donacion:</label>
+          <select  id="00N8b00000IET4l" name="00N8b00000IET4l" title="Tipo_Donacion"><option value="">--None--</option><option value="Transferencia">Transferencia</option>
+                <option value="Comida">Comida</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Juguetes">Juguetes</option>
+                <option value="Otros">Otros</option>
+          </select><br>
         
         <br><br>
         
-        <input class="form-btn" type="submit" name="submit">
-        
+        <input class="form-btn" type="submit" name="submit">        
         </form>
-    </div>
-    <br>
-    <br>
-    <div class="container">        
-        <footer class="row py-5 my-5 border-top  d-flex justify-content-center">
+</div>
+    <div id="foter" class="container-fluid">        
+        <footer class=" py-5 border-top  d-flex justify-content-center">
             <div class="col-2 d-flex flex-column align-items-start">
                 <br>
-                <span class="text-muted">© 2023</span>
+                <span>© 2023</span>
                 <br>
-                <h6 class="text-center text-muted">Guayerd</h6>
+                <h6 class="text-center">Guayerd</h6>
                 <br>
-                <h6 class="text-muted">Equipo 11</h6> 
+                <h6 class="">Equipo 11</h6> 
             </div>
             <div class="col-2 scroll-element js-scroll fade-in-bottom ">                              
-                <ul class="nav flex-column">                    
+                <ul class="nav flex-column">                   
+                    <br>                
                     <li class="nav-item mb-2 text-muted">Milena Salerno</li>
-                    <li class="nav-item mb-2 text-muted">Cinthya Guerrero</li>
+                    <br>                
+                    <li class="nav-item mb-2 text-muted">Cynthia Guerrero</li>
+                    <br>                
                     <li class="nav-item mb-2 text-muted">Florencia Sanabria</li>
-                    <li class="nav-item mb-2 text-muted">Rafael Belloni</li>
+                </ul>
+                <br>               
+            </div>            
+            <div class="col-2 scroll-element js-scroll fade-in-bottom ">
+                <ul class="nav flex-column">
+                    <br>
+                    <li class="nav-item mb-2  text-muted">Rafael Belloni</li>
+                    <br>
                     <li class="nav-item mb-2 text-muted">Oscar Nuñez</li>
+                    <br>
                     <li class="nav-item mb-2 text-muted">Federico Gigena</li>
                 </ul>
                 <br>
-                
-            </div>            
+            </div>
         </footer>
     </div>      
 </body>
