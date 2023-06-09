@@ -101,7 +101,7 @@ footer{
 }
 
 .pantalla-gracias {
-    padding-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;    
     font-size: 35px;
     font-weight: 300;
@@ -110,13 +110,18 @@ footer{
     -webkit-text-stroke: 1px rgb(17, 78, 164);
 }
 
+div.contenido img {
+    float: left;
+}
+
 .mensaje {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 26px;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: rgb(76, 246, 246);
-    -webkit-text-stroke: 1px rgb(17, 78, 164);    
+    -webkit-text-stroke: 1px rgb(17, 149, 164);    
 }
 
