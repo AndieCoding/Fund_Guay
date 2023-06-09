@@ -112,12 +112,14 @@ footer{
 
 div.contenido img {
     float: left;
+    max-height: 400px;
 }
 
 .mensaje {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 400px;
     font-size: 26px;
     margin-top: 3rem;
     margin-bottom: 4rem;
