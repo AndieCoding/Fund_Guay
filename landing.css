@@ -1,0 +1,137 @@
+body{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: white;
+    height: 100 vh;
+    background-image:url(imagenes/handsworld.png) ;
+    backdrop-filter: blur(10px);
+    background-position: center;    
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 50px;    
+    background-color: #0a2010;
+    width: 100%;
+    padding-left: 0%;
+}
+
+.titulo{
+    background-color:hwb(60 20% 73% / 0.702);    
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px rgb(74, 72, 72);
+    margin-bottom: 1.2rem; 
+    font-size: 28px;       
+}
+    .titulo img {        
+        float: left;
+    }  
+
+form{
+    background-color:hwb(60 20% 73% / 0.702);     
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px rgb(74, 72, 72);
+    margin-bottom: 3rem;
+    margin-top: -0.5rem; 
+    padding: 20px 20px;     
+}
+
+label {
+    width: 170px;
+    margin: 8px 0;
+}
+input, select, p.cbu {
+   width: 250px;
+   height: 2.4rem;
+   margin: 8px 0;
+   margin-left: 30px;  
+   border-radius: 8px; 
+   box-shadow: 0 0 5px rgba(74, 71, 71, 0.931);
+   border: none;
+   padding: 6px;   
+}
+
+input:hover, select:hover {
+    border: 3px solid rgba(42, 2, 4, 0.779);
+    border-radius: 10px;   
+    border-spacing: 50px;
+ }
+
+input:focus, select:hover {
+    background: rgba(245, 240, 192, 0.784);    
+    border-spacing: 50px;
+}
+
+.form-btn {
+    margin-left: 120px;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: auto;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment, .contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(106, 106, 106);
+}
+
+h1 {
+    font-size: 38px;
+    text-align:center;
+}
+
+#nav-bar-brand{
+    color: white;
+}
+
+footer{    
+    margin-top: 20px;
+    background-color: #0a2010;    
+}
+
+.pantalla-gracias {
+    margin-top: 3rem;
+    margin-bottom: 3rem;    
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(76, 246, 246);
+    -webkit-text-stroke: 1px rgb(149, 164, 17);    
+    -webkit-text-stroke: 1px rgb(17, 78, 164);
+}
+
+div.contenido img {
+    float: left;
+    max-height: 400px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    font-size: 26px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: rgb(76, 246, 246);
+    -webkit-text-stroke: 1px rgb(17, 149, 164);    
+}
+
+#medio {
+    display: none;
+}
+
+#pago {
+    display: none;
+}
